@@ -27,16 +27,30 @@
 </head>
 
 <body>
-    <header class="w-full h-20 flex justify-center ">
-        <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
+    <header class="w-full h-20 flex justify-center absolute bg-white">
+        <nav class="w-4/5 h-full flex justify-between items-center font-bebas ">
             <h1 class="text-3xl font-bold">Anik Movies Production</h1>
-            <ul class="flex gap-x-5 text-xl font-bold">
+            <ul class="flex gap-x-5 text-xl font-bold hidden md:flex">
                 <li>About Us</li>
                 <li>Our Movies</li>
                 <li>Servieces</li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center">
+            <div class="mx-10 w-1/2 font-bebas text-white">
+                <p class=" text-xl">Movie production studio</p>
+                <h1 class="text-7xl text-white">Films Made to</h1>
+                <h1 class=" text-7xl text-yellow">Perfection</h1>
+                <p class=" font-sans">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur inventore
+                    tenetur eligendi.</p>
+                <button
+                    class=" text-xl border-2 px-5 py-2 mt-10 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover
+                    more</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
